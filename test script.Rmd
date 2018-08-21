@@ -1,6 +1,8 @@
 ---
 title: "Untitled"
-output: html_document
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
@@ -16,7 +18,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 summary(cars)
-ggplot(cars,aes(speed))+geom_histogram()
+ggplot(cars,aes(speed))+geom_histogram(fill="red")
 ```
 
 ## Including Plots

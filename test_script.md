@@ -1,6 +1,3 @@
-Untitled
-================
-
 R Markdown
 ----------
 
@@ -21,7 +18,7 @@ summary(cars)
     ##  Max.   :25.0   Max.   :120.00
 
 ``` r
-ggplot(cars,aes(speed))+geom_histogram()
+ggplot(cars,aes(speed))+geom_histogram(fill="red")
 ```
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.

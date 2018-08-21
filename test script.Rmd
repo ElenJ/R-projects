@@ -15,6 +15,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 summary(cars)
+ggplot(cars,aes(speed))+geom_histogram()
 ```
 
 ## Including Plots
